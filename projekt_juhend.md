@@ -7,15 +7,15 @@ title: Projekti juhend
 
 **Projekt tuleb esitada hiljemalt**
 
-- **I rühm**:   24. oktoober 2019 kell 12:00
-- **II rühm**:  05. detsember 2019 kell 12:00
+- **I rühm**:   22. oktoober 2019 kell 12:00
+- **II rühm**:  17. detsember 2019 kell 12:00
 
-Projektid esitage Moodle keskkonna kaudu. Kõikides saadetud töö failide nimedes peab kajastuma tudengi nimi.
+Projektid esitage Moodle keskkonna kaudu. Kõikides saadetud töö failide nimedes peab kajastuma tudengi(te) nimi.
 
 Projektide valmimise käigus tekkinud küsimuste ja probleemide lahendamiseks on võimalus tulla ja küsida järgmistel aegadel:
 
-- **I rühm** T, 22. oktoober 2019 kell 14:15 aud. J.Liivi 2 - 003 (eelnevalt peab konsultatsiooni soovist teada andma).
-- **II rühm** T, 03. detsember 2019 kell 14:15 (eelnevalt peaks konsultatsiooni soovist teada andma).
+- **I rühm** T, 20. oktoober 2019 kell 14:15 aud. Delta 2030 (eelnevalt peab konsultatsiooni soovist teada andma).
+- **II rühm** T, 15. detsember 2019 kell 14:15 (eelnevalt peaks konsultatsiooni soovist teada andma).
 
 
 
@@ -120,5 +120,5 @@ Boonuspunkte võib saada õppejõu äranägemise järgi järgmiste tingimuste ol
 
 **Näited**
 
-Näited leiad [projektide lehelt](projektid)
+Näited leiad [projektide lehelt](projektid) ja [eelmise aasta projektide hulgast](https://rkursus.github.io/sygis2019/projektid).
 

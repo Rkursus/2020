@@ -52,12 +52,12 @@ Kursus on mõeldud statistikahuvilistele üliõpilastele, kes pole varem tarkvar
 Lisaks praktikumidele sisaldab õppeaine järgnevaid komponente:
 
 * **Kodutööd:** Kokku antakse 5 kodutööd. 
-  * Kodutöö koosneb iseseisvalt lahendavatest ülesannetest praktikumis läbitud teemadel. Iga kodutöö tulemuseks on *.R fail koodi ning kommentaaridega või läbitud kodutöö-kursus [DataCamp](https://www.datacamp.com) keskkonnas.  
-  * Kodutööde esitamine käib läbi Moodle või [DataCamp](https://www.datacamp.com) keskkonna.
+  * Kodutöö koosneb iseseisvalt lahendavatest ülesannetest praktikumis läbitud teemadel. Iga kodutöö tulemuseks on *.R fail koodi ning kommentaaridega keskkonnas.  
+  * Kodutööde esitamine käib läbi Moodle keskkonna.
 * **Projekt:** Lisaks tuleb läbi viia üks praktiline projekt vabalt valitud andmestiku peal. Projektitöö eesmärgiks on näidata, kuivõrd on tudeng omandanud oskused kasutada R-i andmete töötlemiseks. Samuti oskust R-ga analüüside tulemusi vormistada (nt. joonised).
   * Projekti võib teha kas üksinda või paaristööna. 
   * Tulemusi on vaja esitleda suulisel kaitsmisel. 
-  * Projektid riputatakse pärast esitamist avalikult [projektid](https://Rkursus.github.io/sygis2019/projekt_juhend) lehele.
+  * Projektid riputatakse pärast esitamist avalikult [projektid](https://Rkursus.github.io/2020/projekt_juhend) lehele.
 * Iga projekti esitanud tudeng(id) saavad ühe kaastudengi(te) projekti retsenseerimiseks.
 
 Aine läbimiseks on vaja:
@@ -79,21 +79,21 @@ Aine läbimiseks on vaja:
 
 # Tunniplaan
 
-Õppeaine toimub 2019/2020. õppeaasta sügissemestril. 
+Õppeaine toimub 2020/2021. õppeaasta sügissemestril. 
 
-* Praktikumid **teisipäeviti kell 14:15** ja **neljapäeviti kell 8:15** ruumis 203
+* Praktikumid **teisipäeviti kell 14:15** ja **neljapäeviti kell 8:15** ruumis 2030
 	* I rühm nädalatel 2 - 6
-	* II rühm nädalatel 8 - 12
+	* II rühm nädalatel 10 - 14
 * **Projektide tähtaeg**:
-	* I rühm **neljapäeval 24. oktoober kell 12:00** (nädal 8).
-	* II rühm **neljapäeval 5. detsember kell 12:00** (nädal 14).
+	* I rühm **neljapäeval 22. oktoober kell 12:00** (nädal 8).
+	* II rühm **neljapäeval 17. detsember kell 12:00** (nädal 16).
 * **Projektide ettekandmine**:
 	* I rühm **teisipäeval 5. november kell 14:15** (nädal 10).
-	* II rühm **teisipäeval 17. detsember kell 14:15** (nädal 16).
+	* II rühm (täpsustamisel).
 
 <br/>
 
 # Kontakt ja küsimused
 
-* I rühm - Kaur Lumiste kaur.lumiste [at] ut.ee ja Liivi 2-519.
-* II rühm - Anne Selart anne.selart [at] ut.ee ja Liivi 2-519.
+* I rühm - Kaur Lumiste kaur.lumiste [at] ut.ee ja Deltas kab. 4079.
+* II rühm - Anne Selart anne.selart [at] ut.ee ja Deltas kab. 4070.

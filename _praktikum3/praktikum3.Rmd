@@ -23,7 +23,8 @@ library(ggplot2)
 
 Impordime uuesti andmestiku, mida korra kasutasime ka eelmises praktikumis (Massachusettsi andmestik), ja vaatame andmestikust ülevaadet
 ```{r, results='hide'}
-andmed <- read.table("https://github.com/Rkursus/sygis2019/raw/master/data/mass.txt", header = T, sep = "\t")
+andmed <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt", 
+                     header = T, sep = "\t")
 str(andmed)
 ```
 

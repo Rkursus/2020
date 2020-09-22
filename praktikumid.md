@@ -65,6 +65,7 @@ Joonised paketiga `ggplot2`.
 Joonised `ggplot2`-ga jätkub - joonisele kihtide lisamine, skaalade muutmine, joonise viimistlemine.
 
 * Tutvu raamatuga [R Graphics Cookbook](https://r-graphics.org)
+* Tutvu [`ggplot2` näidetega](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
 * [Praktikumi materjalid](praktikum6)
 * [Praktikumi R kood](https://github.com/Rkursus/2020/raw/master/_praktikum6/praktikum6_kood.R)
 * Kodutöö
@@ -126,3 +127,10 @@ Tulemuste vormistamine pakettidega `knitr` ja `rmarkdown`.
 * [R-bloggers](https://www.r-bloggers.com/) - Blogi huvitavatest R-i rakendustest.
 * [Simply Statistics](https://simplystatistics.org/) - Huvitav R-i blogi.
 
+### E-raamatud:
+* [R for Data Science (G. Grolemund, H. Wickham)](http://r4ds.had.co.nz/)
+* [Data visualization: a practical introduction (K. Healy)](http://socviz.co/)
+* [R Graphics Cookbook (W. Chang)](https://r-graphics.org/)
+* [Hands-On Programming with R (G. Grolemund)](https://rstudio-education.github.io/hopr/)
+* [R Markdown: The Definitive Guide (Y. Xie, J. J. Allaire, G. Grolemund)](https://bookdown.org/yihui/rmarkdown/)
+* [Mastering Shiny (H. Wickham)](https://mastering-shiny.org/)

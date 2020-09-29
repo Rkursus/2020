@@ -68,7 +68,7 @@ Joonised `ggplot2`-ga jätkub - joonisele kihtide lisamine, skaalade muutmine, j
 * Tutvu [`ggplot2` näidetega](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
 * [Praktikumi materjalid](praktikum6)
 * [Praktikumi R kood](https://github.com/Rkursus/2020/raw/master/_praktikum6/praktikum6_kood.R)
-* Kodutöö
+* [Kodutöö](praktikum6_kodutoo.md)
     * Tähtaeg:
 		* I rühm - 01.10.2020 kell 08:00.
 		* II rühm - 26.11.2020 kell 08:00.

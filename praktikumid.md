@@ -89,7 +89,7 @@ Töötamine kuupäevadega ja sõnetöötlus paketiga `stringr`.
 
 * [Praktikumi materjalid](praktikum8)
 * [Praktikumi R kood](https://github.com/Rkursus/2020/raw/master/_praktikum8/praktikum8_kood.R)
-* Kodutöö
+* [Kodutöö](praktikum8_kodutoo.md)
     * Tähtaeg:
 		* I rühm - 08.10.2020 kell 08:00.
 		* II rühm - 03.12.2020 kell 08:00.
@@ -113,7 +113,7 @@ Tulemuste vormistamine pakettidega `knitr` ja `rmarkdown`.
 * Tutvu raamatuga [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 * [Praktikumi materjalid](praktikum10)
 * [Praktikumi R kood](https://github.com/Rkursus/2020/raw/master/_praktikum10/praktikum10_kood.Rmd)
-* Kodutöö
+* [Kodutöö](praktikum10_kodutoo.md)
     * Tähtaeg:
 		* I rühm - 15.10.2020 kell 08:00.
 		* II rühm - 10.12.2020 kell 08:00.

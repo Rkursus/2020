@@ -38,3 +38,8 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+_praktikum2/kodutoo/*.Rmd
+_praktikum4/kodutoo/*.Rmd
+_praktikum6/kodutoo/*.Rmd
+_praktikum8/kodutoo/*.Rmd
+_praktikum10/kodutoo/*.Rmd

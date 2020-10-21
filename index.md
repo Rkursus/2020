@@ -85,10 +85,10 @@ Aine läbimiseks on vaja:
 	* I rühm nädalatel 2 - 6
 	* II rühm nädalatel 10 - 14
 * **Projektide tähtaeg**:
-	* I rühm **neljapäeval 22. oktoober kell 12:00** (nädal 8).
-	* II rühm **neljapäeval 17. detsember kell 12:00** (nädal 16).
+	* I rühm **neljapäeval, 22. oktoober kell 12:00** (nädal 8).
+	* II rühm **neljapäeval, 17. detsember kell 12:00** (nädal 16).
 * **Projektide ettekandmine**:
-	* I rühm **teisipäeval 5. november kell 14:15** (nädal 10).
+	* I rühm **teisipäeval, 3. november kell 14:15** (nädal 10).
 	* II rühm (täpsustamisel).
 
 <br/>

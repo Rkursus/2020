@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Praktikumimaterjalid
 ---
@@ -21,7 +21,7 @@ Andmete importimine, väärtustetüübid ja teisendused, lisapakettide kasutamin
 * [Praktikumi materjalid](praktikum2)
 * [Praktikumi R kood](https://github.com/Rkursus/2020/raw/master/_praktikum2/praktikum2_kood.R)
 * [RStudio snipetid](https://github.com/Rkursus/2020/raw/master/RStudio_snippetid.txt)
-* [Kodutöö](praktikum2_kodutoo.md)
+* Kodutöö I <!-- [Kodutöö](praktikum2_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 17.09.2020 kell 08:00.
 		* II rühm - 12.11.2020 kell 08:00.
@@ -43,7 +43,7 @@ Andmestike ühendamine, unikaalsed ja mitmekordsed elemendid, andmete sorteerimi
 
 * [Praktikumi materjalid](praktikum4)
 * [Praktikumi R kood](https://github.com/Rkursus/2020/raw/master/_praktikum4/praktikum4_kood.R)
-* [Kodutöö](praktikum4_kodutoo.md)
+* Kodutöö II <!--[Kodutöö](praktikum4_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 24.09.2020 kell 08:00.
 		* II rühm - 19.11.2020 kell 08:00.
@@ -68,7 +68,7 @@ Joonised `ggplot2`-ga jätkub - joonisele kihtide lisamine, skaalade muutmine, j
 * Tutvu [`ggplot2` näidetega](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
 * [Praktikumi materjalid](praktikum6)
 * [Praktikumi R kood](https://github.com/Rkursus/2020/raw/master/_praktikum6/praktikum6_kood.R)
-* [Kodutöö](praktikum6_kodutoo.md)
+* Kodutöö III <!--Kodutöö](praktikum6_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 01.10.2020 kell 08:00.
 		* II rühm - 26.11.2020 kell 08:00.
@@ -89,7 +89,7 @@ Töötamine kuupäevadega ja sõnetöötlus paketiga `stringr`.
 
 * [Praktikumi materjalid](praktikum8)
 * [Praktikumi R kood](https://github.com/Rkursus/2020/raw/master/_praktikum8/praktikum8_kood.R)
-* [Kodutöö](praktikum8_kodutoo.md)
+* Kodutöö IV <!--[Kodutöö](praktikum8_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 08.10.2020 kell 08:00.
 		* II rühm - 03.12.2020 kell 08:00.
@@ -113,7 +113,7 @@ Tulemuste vormistamine pakettidega `knitr` ja `rmarkdown`.
 * Tutvu raamatuga [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 * [Praktikumi materjalid](praktikum10)
 * [Praktikumi R kood](https://github.com/Rkursus/2020/raw/master/_praktikum10/praktikum10_kood.Rmd)
-* [Kodutöö](praktikum10_kodutoo.md)
+* Kodutöö V <!--[Kodutöö](praktikum10_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 15.10.2020 kell 08:00.
 		* II rühm - 10.12.2020 kell 08:00.

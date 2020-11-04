@@ -166,7 +166,25 @@ str(andmed)
 
 
 
-# --- 2.2 Lisapakettide kasutamine ----
+
+
+
+
+# --- 2.2 Esmase ülevaate saamine andmetabelist ----
+str(andmed)
+summary(andmed)
+dim(andmed)
+ncol(andmed)
+nrow(andmed)
+names(andmed)
+head(andmed)
+
+
+
+
+
+
+# --- 2.3 Lisapakettide kasutamine ----
 install.packages("readxl")
 install.packages("haven")
 # pakett  readxl -  MS Excel'i failide importimiseks
@@ -177,11 +195,11 @@ library(readxl)
 
 
 
-# --- 2.3 Andmete import programmide MS Excel, SAS, Stata, SPSS failidest ----
+# --- 2.4 Andmete import programmide MS Excel, SAS, Stata, SPSS failidest ----
 
-# --- 2.3.1 MS Excel failid (.xls, .xlsx) ----
+# --- 2.4.1 MS Excel failid (.xls, .xlsx) ----
 
-# salvesta MS Exceli fail "tudengite-arv.xlsx" aadressilt https://github.com/Rkursus/sygis2019/tree/master/data oma töökausta
+# salvesta MS Exceli fail "tudengite-arv.xlsx" aadressilt https://github.com/Rkursus/2020/tree/master/data oma töökausta
 
 list.files()   # vaata, mis nimega failid on töökaustas
 excel_sheets("tudengite-arv.xlsx")   # töölehtede nimed MS Exceli failis
@@ -197,9 +215,9 @@ str(tabel)
 
 
 
-# ---  2.4 SAS, SPSS, Stata failide imoport ----
+# ---  2.4.2 SAS, SPSS, Stata failide imoport ----
 
-# salvesta aadressilt https://github.com/Rkursus/sygis2019/tree/master/data oma töökausta failid:
+# salvesta aadressilt https://github.com/Rkursus/2020/tree/master/data oma töökausta failid:
 # "effort.sas7bdat"  - SAS andmefail
 # "effort.dta" - Stata fail
 # "effort.sav" - SPSS fail  
@@ -229,7 +247,7 @@ View(andmestik_SAS)
 # näiteks write_sas() käsu tulemust uuem SAS omaks ei tunnista 
  
 
-# ---- ÜL 2.3.3 ----
+# ---- ÜL 2.4.3 ----
 # 1.
 # vaata esmalt abifaili
 ?read_excel
@@ -240,16 +258,3 @@ str(kokku)
 
 
 
-
-
-
-
-# --- 2.4 Esmase ülevaate saamine andmetabelist ----
-str(andmed)
-summary(andmed)
-dim(andmed)
-ncol(andmed)
-nrow(andmed)
-names(andmed)
-head(andmed)
-  

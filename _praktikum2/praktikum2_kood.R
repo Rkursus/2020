@@ -131,7 +131,7 @@ setwd("C:/Users/mina/Rkursus/")
 # vt. faili "RStudio snipetid"   
 
 # Näide andmete sisselugemisest
-näide1 <- read.table("https://github.com/Rkursus/sygis2019/raw/master/data/esimene.txt",
+näide1 <- read.table("https://github.com/Rkursus/2020/raw/master/data/esimene.txt",
                      header = T, sep = "\t", dec = ",")
 
 # Tulemused saab kirjutada faili käsuga write.table()
@@ -146,13 +146,13 @@ write.table(näide1, "failinimi.txt", sep = "\t")
 
 
 # 2. 
-tab1 <- read.table("https://github.com/Rkursus/sygis2019/raw/master/data/____", ____)
+tab1 <- read.table("https://github.com/Rkursus/2020/raw/master/data/____", ____)
 
-tab2 <- read.table("https://github.com/Rkursus/sygis2019/raw/master/data/____", ____)
+tab2 <- read.table("https://github.com/Rkursus/2020/raw/master/data/____", ____)
 
-tab3 <- read.table("https://github.com/Rkursus/sygis2019/raw/master/data/____", ____)
+tab3 <- read.table("https://github.com/Rkursus/2020/raw/master/data/____", ____)
 
-tab4 <- read.table("https://github.com/Rkursus/sygis2019/raw/master/data/____", ____)
+tab4 <- read.table("https://github.com/Rkursus/2020/raw/master/data/____", ____)
 
 tab1;tab2;tab3;tab4
 

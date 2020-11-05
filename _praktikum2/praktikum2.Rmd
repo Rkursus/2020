@@ -235,7 +235,7 @@ Kõige olulisem käsk tekstikujul andmestike sisselugemiseks on `read.table()`. 
 `dec`              -     kuidas on märgitud kümnendmurru eraldaja? (nt `"."` või `","`)
 `quote`            -     millega on tekstilised väärtused ümbritsetud? (nt `"\""` tähendab, et kahekordsete jutumärkidega)
 `na.strings`       -     kuidas on failis puuduvad väärtused tähistatud?
-`fileEncoding`     -     mis tähekodeeringut kasutatakse (Windowsis sageli `"latin9"`, Macis/Linuxis sageli `"utf8"`)
+`fileEncoding`     -     mis tähekodeeringut kasutatakse (Windowsis sageli `"latin1"`, Macis/Linuxis sageli `"UTF-8"`)
 --------------   -----   ------------------------------------------------------------------------------------------------------
 
 

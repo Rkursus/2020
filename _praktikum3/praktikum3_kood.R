@@ -134,6 +134,11 @@ levels(andmed$SCHL)
 
 
 # --- 1.4 Faktortunnus ----
+# loeme andmestiku uuesti sisse, tekitades faktor-tunnused
+andmed1 <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt", 
+                      header = T, sep = "\t", stringsAsFactors = T)
+# tekitame uuesti alamandmestiku
+mehed1 <- andmed1[andmed1$SEX == "Male",]  
 
 # Faktortunnuse tasemete teada saamiseks kasutatakse käsku levels(.).
 levels(mehed$SEX)

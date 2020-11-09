@@ -219,19 +219,25 @@ by(valik5$WAGP, valik5$SEX, mean, na.rm = T)
 
 ##  Faktortunnus
 
-**Faktortunnus** pole tegelikult nn elementaartüüp (nagu näiteks `integer`), vaid keerulisem konstruktsioon. Nimelt faktortunnus on sildistatud koodide tunnus. Kui andmestik R-i sisse loetakse, siis vaikimisi pannakse tähelisi väärtuseid sisaldavate tunnuste tüübiks `factor` (seda võib ka `read.table(.)` argumendiga `stringsAsFactors` keelata) ning iga erinev väärtus kodeeritakse mingi täisarvuga, aga lisaks tehakse kodeerimistabel, kus on kirjas iga täisarvu (kodeeringu) tekstiline väärtus (ehk silt).
+<!--**Faktortunnus** pole tegelikult nn elementaartüüp (nagu näiteks `integer`), vaid keerulisem konstruktsioon. Nimelt faktortunnus on sildistatud koodide tunnus. Kui andmestik R-i sisse loetakse, siis vaikimisi pannakse tähelisi väärtuseid sisaldavate tunnuste tüübiks `factor` (seda võib ka `read.table(.)` argumendiga `stringsAsFactors` keelata) ning iga erinev väärtus kodeeritakse mingi täisarvuga, aga lisaks tehakse kodeerimistabel, kus on kirjas iga täisarvu (kodeeringu) tekstiline väärtus (ehk silt).-->
+**Faktortunnus** pole tegelikult nn elementaartüüp (nagu näiteks `integer`), vaid keerulisem konstruktsioon. Nimelt faktortunnus on sildistatud koodide tunnus. Kui andmestik R-i sisse loetakse, siis saame määrata, et tähelisi väärtuseid sisaldavate tunnuste tüübiks tekiks `factor` (selleks panna `read.table(.)` argumendi `stringsAsFactors` väärtuseks `TRUE`) ning iga erinev väärtus kodeeritakse mingi täisarvuga, aga lisaks tehakse kodeerimistabel, kus on kirjas iga täisarvu (kodeeringu) tekstiline väärtus (ehk silt).
 
 Et teada saada, mitu erinevat väärtust antud faktortunnusel võib üldse olla, kasutatakse käsku `levels(.)`. Sealjuures ei pruugi kõiki faktori väärtustasemeid antud andmetes üldse esineda:
 ```{r}
-levels(mehed$SEX)
-table(mehed$SEX)
+# loeme andmestiku uuesti sisse, tekitades faktor-tunnused
+andmed1 <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt", 
+                     header = T, sep = "\t", stringsAsFactors = T)
+# tekitame uuesti alamandmestiku
+mehed1 <- andmed1[andmed1$SEX == "Male",]
+levels(mehed1$SEX)
+table(mehed1$SEX)
 ```
 
 Faktortunnuse tekitamiseks saab kasutada käsku `factor(.)`. Vaikimisi pannakse faktortunnuse tekitamisel faktori tasemed tähestiku järjekorda. Seda saab aga muuta käsu `factor(.)` argumenti `levels` kasutades:
 ```{r,results='hide'}
-table(andmed$MARHT)   # Mitu korda abielus olnud?
-andmed$MARHT <- factor(andmed$MARHT, levels = c("One time", "Two times", "Three or more times"))
-table(andmed$MARHT)
+table(andmed1$MARHT)   # Mitu korda abielus olnud?
+andmed1$MARHT <- factor(andmed1$MARHT, levels = c("One time", "Two times", "Three or more times"))
+table(andmed1$MARHT)
 ```
 
 Mõnikord on imporditud andmestikus arvulised tunnused faktorkujul sellepärast, et sisseloetavas failis oli viga ning ühes lahtris oli arvu asemel mingi tekst. Kui nüüd proovida `as.numeric(.)` käsuga see tunnus arvuliseks teisendada, tekib segadus: `Factor`-tüüpi tunnus on juba täisarvude tunnus (kuigi neil on sildid juures) ning seetõttu antakse tulemuseks need täisarvud ehk kodeeringud. Segadust ei teki, kui faktortunnus kõigepealt sõneks teisendada (kodeeringud kaotatakse, jäävad ainult sildid) ning alles seejärel arvudeks.

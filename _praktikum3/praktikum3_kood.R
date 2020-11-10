@@ -77,8 +77,7 @@ str(abielu)
 valik5 <- andmed[_____,_____]
 
 # 2. valida välja need, kel MIG-tunnuse väärtus pole teada
-levels(andmed$MIG)
-summary(andmed$MIG)
+table(andmed$MIG)
 osa <- andmed[____,____]
 str(osa)
 summary(osa)
@@ -141,10 +140,10 @@ andmed1 <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt"
 mehed1 <- andmed1[andmed1$SEX == "Male",]  
 
 # Faktortunnuse tasemete teada saamiseks kasutatakse käsku levels(.).
-levels(mehed$SEX)
+levels(mehed1$SEX)
 
 # Sealjuures ei pruugi kõiki faktori väärtustasemeid antud andmetes üldse esineda:
-table(mehed$SEX)
+table(mehed1$SEX)
 
 # Faktortunnuse tekitamiseks saab kasutada käsku factor(.):
 table(andmed$MARHT) # Mitu korda abielus olnud?

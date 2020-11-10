@@ -310,7 +310,7 @@ Käsuga `read.table(.)` sisse loetud andmestik on erilist tüüpi, **`data.frame
 `head(andmed)`      -     andmestiku mõned esimesed read
 ---------------   -----   ------------------------------------------------------------------------------------------------
 
-Käsu `summary(.)` puhul on näha, et mõne tunnuse puhul arvutatakse keskmine, miinimum, maksimum jne, aga teise tunnuse puhul esitatakse sagedused. See, millist kirjeldusviisi kasutatakse, tuleneb tunnuse tüübist. Kui käsuga `str(.)` vaadata, mis on tunnuste tüübid selles andmestikus, on näha kahte tüüpi tunnuseid: `int` ja `Factor`. On näha, et `summary(.)` käsk arvutab `int`-tüüpi tunnustele keskmisi jne, `Factor`-tüüpi tunnustele aga sagedusi. Faktortüüpi tunnus sarnaneb sõnele (*character*), kuid üheks erinevuseks on näiteks fikseeritud väärtuste hulk. Faktortunnust vaatame järgmises praktikumis ka täpsemalt.
+Käsu `summary(.)` puhul on näha, et mõne tunnuse puhul arvutatakse keskmine, miinimum, maksimum jne, aga teise tunnuse puhul esitatakse sagedused. See, millist kirjeldusviisi kasutatakse, tuleneb tunnuse tüübist. Kui käsuga `str(.)` vaadata, mis on tunnuste tüübid selles andmestikus, on näha kahte tüüpi tunnuseid: `int` ja `chr`. On näha, et `summary(.)` käsk arvutab `int`-tüüpi tunnustele keskmisi jne, `char`-tüüpi tunnustele aga on antud vaatluste arv ja tüübinimi. Kui andmete impordil määrata sõnesid sisaldavad tunnused faktor-tunnusteks (`stringsAsFactors=TRUE`)  siis näitab `summary(.)` käsk sõnelisele tunnusele sagedusi. Faktortüüpi tunnus sarnaneb sõnele (*character*), kuid üheks erinevuseks on näiteks fikseeritud väärtuste hulk. Faktortunnust vaatame järgmises praktikumis ka täpsemalt.
 
 
 

@@ -14,6 +14,7 @@ tagamiseks eemaldati.
 ## [Mitte nii hea näide projektist](projektid/halb.pdf)
 Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele sisulist vajadust ei ole; vormistuse puhul on kasutatud liigselt värve ja liiga palju erinevaid vormingutüüpe.
 
+
 ## Andmestikke projekti jaoks
 
 * [Eesti avaandmete portaal (andmestikud Eesti kohta)](https://opendata.riik.ee/andmehulgad/)
@@ -26,6 +27,21 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 * [Hulk avalikult kättesaadavaid andmestikke (UC Irvine Machine Learning Repository)](https://archive.ics.uci.edu/ml/index.php)
 * [Hulk avalikult kättesaadavaid andmestikke (Kaggle)](https://www.kaggle.com/datasets)
 * [Hulk avalikult kättesaadavaid andmestikke (Amazon Registry of Open Data)](https://registry.opendata.aws/)
+
+
+# Rühm 1 
+
+## [AHR geeniekspressioon kalakajakatel](projektid/group1/AHR-geeniekspressioon-kalakajatel.pdf)
+## [Terviseärevuse ja emotsiooni regulatsiooni seosed](projektid/group1/Emotsioonide-regulatsioon .pdf)
+## [Liigikaaslaste munade mõju pruun-kuldtiiva (*Lycaena tityrus*) munemistaime eelistusele](projektid/group1/pruun-kuldtiiva-munemiskaitumine.html)
+## [Liiklusõnnetused aastatel 2011-2020](projektid/group1/Liiklusonnetused.pdf)
+## [Nahkhiirte rõngastusandmed 2016 - 2019](projektid/group1/Nahkhiirte-rongastusandmed.pdf)
+## [NBA mängijad](projektid/group1/NBA-mangijad.pdf)
+## [2015. ja 2019. aasta Tartu linnamaratonide tulemuste analüüs](projektid/group1/Tartu-Linnamaraton.pdf)
+## [The Sinking of the Titanic](projektid/group1/Titanic-Passengers-List.pdf)
+## [Tugevate maavärinate esinemine aastatel 1965 – 2016](projektid/group1/Tugevate-maavarinate-esinemine.pdf)
+## [Töötus ja vaimsed haigused](projektid/group1/Tootus-ja-vaimsed-haigused.pdf)
+## [Alkoholitarbimine ning selle mõjud noorte seas](projektid/group1/Opilaste-alkoholi-tarbimine.pdf)
 
 <!--
 {% for post in site.posts %}

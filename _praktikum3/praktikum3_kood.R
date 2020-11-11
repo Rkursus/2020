@@ -108,7 +108,7 @@ quantile(_____)
 
 
 # 3. lahutatute oskaal, mehed vs naised
-levels(andmed$MAR)
+table(andmed$MAR)
 
 prop.table(____)
 
@@ -176,7 +176,7 @@ table(andmed$vanusgrupp)
 # 2. USA kodakondsuseta vastajad: kas vanusgruppide jaotus meestel-naistel erinev
 
 # Mittkodanike alamandmestik
-levels(andmed$CIT)
+table(andmed$CIT)
 mitte <- andmed[____,____]
 
 # soo ja vanusgrupi sagedustabel

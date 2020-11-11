@@ -186,7 +186,7 @@ table(andmed$SCHL %in% c("Doctorate degree", "Master's degree","Bachelor's degre
 by(andmed$WAGP, andmed$SEX, mean, na.rm = T)
 
 #7
-levels(andmed$SCHL)
+table(andmed$SCHL)
  sum(is.na(andmed$SCHL))
 
  
@@ -266,7 +266,7 @@ table(andmed$vanusgrupp)
 
  
 # 2. kas USA kodakondsuseta meeste ja naiste hulgas on vanus erinevalt jaotunud
-levels(andmed$CIT)  # vaatame mis väärtused esinevad
+table(andmed$CIT)  # vaatame mis väärtused esinevad
 mittekodanikud <-andmed[andmed$CIT == "Not a citizen of the U.S.", ]
 prop.table(table(mittekodanikud$SEX, mittekodanikud$vanusgrupp), 1)
 

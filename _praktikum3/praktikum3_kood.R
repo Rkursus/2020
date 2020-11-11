@@ -114,7 +114,7 @@ prop.table(____)
 
 
 # 4. mitu üle 74-aastast naist on doktorikraadiga
-levels(andmed$SCHL)
+table(andmed$SCHL)
 
 
 

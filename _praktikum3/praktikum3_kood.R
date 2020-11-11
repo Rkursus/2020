@@ -77,8 +77,7 @@ str(abielu)
 valik5 <- andmed[_____,_____]
 
 # 2. valida välja need, kel MIG-tunnuse väärtus pole teada
-levels(andmed$MIG)
-summary(andmed$MIG)
+table(andmed$MIG)
 osa <- andmed[____,____]
 str(osa)
 summary(osa)
@@ -109,13 +108,13 @@ quantile(_____)
 
 
 # 3. lahutatute oskaal, mehed vs naised
-levels(andmed$MAR)
+table(andmed$MAR)
 
 prop.table(____)
 
 
 # 4. mitu üle 74-aastast naist on doktorikraadiga
-levels(andmed$SCHL)
+table(andmed$SCHL)
 
 
 
@@ -134,12 +133,17 @@ levels(andmed$SCHL)
 
 
 # --- 1.4 Faktortunnus ----
+# loeme andmestiku uuesti sisse, tekitades faktor-tunnused
+andmed1 <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt", 
+                      header = T, sep = "\t", stringsAsFactors = T)
+# tekitame uuesti alamandmestiku
+mehed1 <- andmed1[andmed1$SEX == "Male",]  
 
 # Faktortunnuse tasemete teada saamiseks kasutatakse käsku levels(.).
-levels(mehed$SEX)
+levels(mehed1$SEX)
 
 # Sealjuures ei pruugi kõiki faktori väärtustasemeid antud andmetes üldse esineda:
-table(mehed$SEX)
+table(mehed1$SEX)
 
 # Faktortunnuse tekitamiseks saab kasutada käsku factor(.):
 table(andmed$MARHT) # Mitu korda abielus olnud?
@@ -172,7 +176,7 @@ table(andmed$vanusgrupp)
 # 2. USA kodakondsuseta vastajad: kas vanusgruppide jaotus meestel-naistel erinev
 
 # Mittkodanike alamandmestik
-levels(andmed$CIT)
+table(andmed$CIT)
 mitte <- andmed[____,____]
 
 # soo ja vanusgrupi sagedustabel

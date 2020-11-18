@@ -12,9 +12,8 @@ output:
 ```{r, include=FALSE, warning=FALSE}
 library(reshape2)
 library(ggplot2)
-link <- "https://github.com/Rkursus/sygis2019/raw/master/data/"
+link <- "https://github.com/Rkursus/2020/raw/master/data/"
 mk <- read.table(paste0(link, "maakonnad.txt"), sep = " ", header=T)
-#mk <- read.table("C:\\Users\\annes\\Documents\\10 AinedÕpetamine\\R kursus\\R kursus 2017 EAP3\\praksid\\failid-veebist-Mait\\maakonnad.txt", sep = " ", header=T)
 
 
 ```
@@ -50,7 +49,7 @@ p2  + scale_x_continuous(name = "Per capita income", breaks = c(10000, 40000),
 x-ja y-telgi ja teisi skaalasid (mh nende nimesid) saab muuta vastava `scale`-käsuga, ent on veel võimalusi lisada telgedele/skaaladele nimed ja piiritleda väärtusvahemikku:
   
 * `xlab(.)`, `ylab(.)` -- vastavate telgede pealkirjad
-* `labs(.)` -- saab määrata nii telgede, legendi elementide ka kui graafiku pealkirja (`x = "..."`, `y = "..." `, `color = "..." `, , `title = "..." `)
+* `labs(.)` -- saab määrata nii telgede, legendi elementide ka kui graafiku pealkirja (`x = "..."`, `y = "..." `, `color = "..." `,  `title = "..." `)
 * `xlim(.)`, `ylim(.)` -- argumendiks kaks väärtust, mis määravad telgede väärtusvahemiku. NB! objektid, mille väärtused on väljaspool määratud vahemikku asendatakse `NA` väärtusega ja jäetakse välja kõigilt kihtidelt.
 * `lims(.)` -- üldine skaalapiiride määramise käsk, lisaks x- ja y-telgedele saab piire määrata ka näiteks värviskaalale. Kui värviskaala on seotud osariigi nimega, siis määramaks värvi ainult kahele osariigile tuleks käsk kirja panna kujul: `lims(color = c("Alaska", "Texas"))`.
 * `coord_cartesian(.)` -- argumentidega `xlim`, `ylim` saab määrata xy-teljestikus väärtusvahemikud, mis nähtavale jäävad. See on võimalus joonise mingile piirkonnale 'suumida'. Joonisest lõike tegemine.
@@ -71,7 +70,7 @@ rotid <- nlme::BodyWeight
 rotid <- rotid[rotid$Diet != 1, ]  
 p <- ggplot(rotid, aes(factor(Time), weight)) + geom_point(color = "gray") + 
   stat_summary(geom = "errorbar", fun.data = mean_se, fun.args = list(mult = 1.96)) +
-  stat_summary(geom = "point", fun.y = mean)
+  stat_summary(geom = "point", fun = mean)
 p
 p + ylim(390, 600)
 ```
@@ -80,7 +79,7 @@ rotid <- nlme::BodyWeight # andmestik kodutööst
 rotid <- rotid[rotid$Diet != 1, ]  
 p <- ggplot(rotid, aes(factor(Time), weight)) + geom_point(color = "gray") + 
   stat_summary(geom = "errorbar", fun.data = mean_se, fun.args = list(mult = 1.96)) +
-  stat_summary(geom = "point", fun.y = mean)
+  stat_summary(geom = "point", fun = mean)
 p
 ```
 ```{r,echo=FALSE,fig.height=3.,fig.width=3., warning=FALSE}
@@ -161,7 +160,7 @@ joonis
 
 1. Pane  tehtud joonisel y-telje nimeks "Higher education percentage"; muuda telje vahemikku (0, 100); muuda teljel olevaid silte ja nende paigutust nii, et need oleksid kujul 0%, 25%, 50%, 75%, 100%.
 1. Määra joonisel  punktide värv sissetuleku tunnuse `per_capita_inc` järgi. Määra legendil tunnuse nimeks `Per capita income`(kasuta käsku `scale_color_continuous(.)` või `labs(.)`).
-1. Jaga tunnuse `per_capita_inc` väärtused viide vahemikku nii, et igas vahemikus oleks üks viiendik vaatlustest. Pane uuele tunnusele nimi `income_class` ja sildista tekkinud väärtusklassid *"Very low", "Low", "Medium", "High", "Very high"*.
+1. Jaga tunnuse `per_capita_inc` väärtused viide vahemikku nii, et igas vahemikus oleks üks viiendik vaatlustest. Pane uuele tunnusele nimi `income_class` ja sildista tekkinud väärtusklassid `"Very low", "Low", "Medium", "High", "Very high"`.
 1. Lisa nüüd joonisele, mis tehtud ülesandes 1,   värviga tunnus `income_class` nii, et värvitaks ainult punkte, kus sissetulek on kas väga kõrge või väga madal (`scale_color_discrete(.)`).
 1. Proovi, mis on tulemus kui `scale_color_discrete(.)` käsule lisada argument `guide = FALSE`.
 

@@ -7,11 +7,12 @@
 library(ggplot2)
 
 # Maakondade andmestik
-mk <- read.table("https://github.com/Rkursus/sygis2019/raw/master/data/maakonnad.txt", sep = " ", header=T)
+mk <- read.table("https://github.com/Rkursus/2020/raw/master/data/maakonnad.txt", sep = " ", header=T)
 head(mk)
 
 # Skaleerimisfunktsiooni rakendamiseks tuleb see lisada joonisele
 p2 <- ggplot(mk, aes(per_capita_inc, unemployment_rate, colour = State)) + geom_point()
+p2
 p2 + scale_x_continuous(trans = "log10", breaks = c(1/2, 1:4) * 10^4)
 
 # Teljepiiride määramine 
@@ -19,7 +20,7 @@ rotid <- nlme::BodyWeight
 rotid <- rotid[rotid$Diet != 1, ]
 p <- ggplot(rotid, aes(factor(Time), weight)) + geom_point(color = "gray") +
   stat_summary(geom = "errorbar", fun.data = mean_se, fun.args = list(mult = 1.96)) +
-  stat_summary(geom = "point", fun.y = mean)
+  stat_summary(geom = "point", fun = mean)
 p
 
 p + ylim(390, 600)
@@ -44,6 +45,7 @@ p2 + geom_smooth(method = lm) + coord_cartesian(xlim = 1:2*10^4) +
 
 # Oluline on ka väärtuste etteandmise järjekord:
 b <- ggplot(data = mk, aes(State, unemployment_rate)) + geom_boxplot()
+b
 b + scale_x_discrete(limits = c("Texas", "Maryland", "Alaska"))
 
 #Võrdle, mis mõju on argumendil `breaks`:
@@ -52,6 +54,7 @@ b + scale_x_discrete(limits = c("Texas", "Maryland", "Alaska"))
 # Diskreetsel skaala puhul saab limits argumendiga määrata millisete väärtusklasside elemendid värvitakse
 # ja millised jäetakse värvimata (vaikimisi jäävad halliks):
 b1 <- ggplot(data = mk, aes(bachelor, unemployment_rate, color = State)) + geom_point()
+b1
 b1 + scale_color_discrete(limits = c("Texas", "Maryland", "Alaska"))
 # NA väärtuse värvi saa ka muuta
 b1 + scale_color_discrete(limits = c("Texas", "Maryland", "Alaska"), na.value = "white")
@@ -101,19 +104,20 @@ joonis4 + scale_color_________(limits =________, guide = FALSE)
 # Näited gradientskaala kasutamisest
 p3 <- ggplot(data = mk, aes(per_capita_inc, unemployment_rate)) +
   geom_point(aes(colour = bachelor ))
+p3
 
 nimi = "% w/ higher \n education"
 p3 + scale_colour_gradient(name = nimi, low = "yellow", high = "red")
 p3 + scale_colour_gradient2(name = nimi, low = "blue", high = "red", midpoint = 30)
 
-# Värviskaalade muutmine
+# diskreetse värviskaala muutmine
 p4 <- ggplot(mk, aes(per_capita_inc, unemployment_rate)) + geom_point(aes(colour = State ))
 p4
 p4 + scale_colour_hue(c = 150) # tugevus suuremaks, vaikimisi 100
 #p4 + scale_colour_hue(l = 20) # heledus madalamaks, vaikimisi 65
 #p4 + scale_colour_hue(h = c(10, 190)) # kaks värvitooni, skaala algus- ja lõpptoon
 
-# Värvi paletti muutmine
+# Värvi paleti muutmine
 p4 + scale_colour_brewer(type = "div", palette = 2)
 p4 + scale_colour_brewer(type = "qual", palette = 2)
 
@@ -192,7 +196,7 @@ joonis5
 
 # Selleks, et muuta joonise teksti tüüpi, fondiperet
 library(extrafont)
-font_import()  # NB! fontide import võtab aega!!
+font_import()  # NB! fontide import võtab aega!! sel ajal ei saa Ri kasutada!
 loadfonts(device = "win")
 
 # mis fonte saab valida?

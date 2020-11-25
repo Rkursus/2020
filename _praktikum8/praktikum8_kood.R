@@ -28,7 +28,7 @@ str_sub(sõnad, end = -3)
 # --- Ül 1.1.1 ----
 
 # 1. Loe sisse Massatchusettsi andmestik
-link <- "https://github.com/Rkursus/sygis2019/raw/master/data/"
+link <- "https://github.com/Rkursus/2020/raw/master/data/"
 mass <- read.table(str_c(link, "mass.txt"), sep = "\t", header = T)
 
 mass$OCCP[1:4]

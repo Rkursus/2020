@@ -43,6 +43,12 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 ## [Töötus ja vaimsed haigused](projektid/group1/Tootus-ja-vaimsed-haigused.pdf)
 ## [Alkoholitarbimine ning selle mõjud noorte seas](projektid/group1/Opilaste-alkoholi-tarbimine.pdf)
 
+
+# Rühm 2
+
+## [Õppijate tegevused, ajakasutus ja väljalangemine programmeerimise MOOCil](projektid/group2/Meier_Room_Projekt_lehele.pdf)
+
+
 <!--
 {% for post in site.posts %}
 ## [ {{ post.title }} ](..{{ post.url }})

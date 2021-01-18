@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Projektid
 ---
@@ -47,6 +47,7 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 # Rühm 2
 
 ## [Õppijate tegevused, ajakasutus ja väljalangemine programmeerimise MOOCil](projektid/group2/Meier_Room_Projekt_lehele.pdf)
+## [Jaapanis tehtud linnuvaatluste (2004-2013) andmestiku kirjeldus](projektid/group2/Doris Helina Fjuk_projekt_lehele.pdf)
 
 
 <!--

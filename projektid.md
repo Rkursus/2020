@@ -49,7 +49,7 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 ## [Õppijate tegevused, ajakasutus ja väljalangemine programmeerimise MOOCil](projektid/group2/Meier_Room_Projekt_lehele.pdf)
 ## [Jaapanis tehtud linnuvaatluste (2004-2013) andmestiku kirjeldus](projektid/group2/Doris Helina Fjuk_projekt_lehele.pdf)
 ## [DRD4 Ex III VNTR polümorfismi seosed liigsöömise ja impulsiivsusega](projektid/group2/Glikman_R_Projekt_loplik.pdf)
-
+## [Erasmus+ programmi Euroopa-sisese õpirände ülevaade aastal 2013](projektid/group2/Projekt_A.Rammul.pdf)
 
 <!--
 {% for post in site.posts %}

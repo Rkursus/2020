@@ -51,6 +51,7 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 ## [DRD4 Ex III VNTR polümorfismi seosed liigsöömise ja impulsiivsusega](projektid/group2/Glikman_R_Projekt_loplik.pdf)
 ## [Erasmus+ programmi Euroopa-sisese õpirände ülevaade aastal 2013](projektid/group2/Projekt_A.Rammul.pdf)
 ## [Haridustaseme seos mitmete teiste muutujatega](projekt-haridus.pdf)
+## [Õpilaste alkoholi tarbimise analüüs](projekt_poslin2.pdf)
 
 <!--
 {% for post in site.posts %}

@@ -50,8 +50,9 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 ## [Jaapanis tehtud linnuvaatluste (2004-2013) andmestiku kirjeldus](projektid/group2/Doris Helina Fjuk_projekt_lehele.pdf)
 ## [DRD4 Ex III VNTR polümorfismi seosed liigsöömise ja impulsiivsusega](projektid/group2/Glikman_R_Projekt_loplik.pdf)
 ## [Erasmus+ programmi Euroopa-sisese õpirände ülevaade aastal 2013](projektid/group2/Projekt_A.Rammul.pdf)
-## [Haridustaseme seos mitmete teiste muutujatega](projekt-haridus.pdf)
-## [Õpilaste alkoholi tarbimise analüüs](projekt_poslin2.pdf)
+## [Haridustaseme seos mitmete teiste muutujatega](projektid/group2/projekt-haridus.pdf)
+## [Õpilaste alkoholi tarbimise analüüs](projektid/group2/projekt_poslin2.pdf)
+
 
 <!--
 {% for post in site.posts %}

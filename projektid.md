@@ -52,6 +52,7 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 ## [Erasmus+ programmi Euroopa-sisese õpirände ülevaade aastal 2013](projektid/group2/Projekt_A.Rammul.pdf)
 ## [Haridustaseme seos mitmete teiste muutujatega](projektid/group2/projekt-haridus.pdf)
 ## [Õpilaste alkoholi tarbimise analüüs](projektid/group2/projekt_poslin2.pdf)
+## [Netflix’i filmid](projektid/group2/rakendustarkvaraR_projekt_Kukk.pdf)
 
 
 <!--

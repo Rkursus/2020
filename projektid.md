@@ -55,7 +55,7 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 ## [Netflix’i filmid](projektid/group2/rakendustarkvaraR_projekt_Kukk.pdf)
 ## [Digitaalsete kaamerate analüüs 1994-2007](projektid/group2/projekt_kaamerad_eliskaar.pdf)
 ## [Tarbijate ostukäitumine ühe kaubandusettevõtte põhjal](projektid/group2/Tarbijate ostukäitumine ühe kaubandusettevõtte põhjal. A Gorskova2.pdf)
-
+## [Rattalaenutussüsteemi kasutamine Seattle’s 2014-2016](projektid/group2/seattle_rattalaenutus_projekt_agnes_tamm2.pdf)
 
 <!--
 {% for post in site.posts %}

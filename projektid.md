@@ -53,6 +53,8 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 ## [Haridustaseme seos mitmete teiste muutujatega](projektid/group2/projekt-haridus.pdf)
 ## [Õpilaste alkoholi tarbimise analüüs](projektid/group2/projekt_poslin2.pdf)
 ## [Netflix’i filmid](projektid/group2/rakendustarkvaraR_projekt_Kukk.pdf)
+## [Digitaalsete kaamerate analüüs 1994-2007](projektid/group2/projekt_kaamerad_eliskaar.pdf)
+## [Tarbijate ostukäitumine ühe kaubandusettevõtte põhjal](projektid/group2/Tarbijate ostukäitumine ühe kaubandusettevõtte põhjal. A Gorskova2.pdf)
 
 
 <!--

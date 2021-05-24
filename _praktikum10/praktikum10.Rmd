@@ -26,7 +26,12 @@ load("../data/andmed.RData")
 cat("---\noutput: pdf_document\n---\n# Esimene arvutus\n```{r,echo=FALSE}\nmass <- read.table(\"https://github.com/Rkursus/sygis2019/raw/master/data/mass.txt\", sep =\"\\t\", header = T)\n```\nMassachusettsi andmestikus on kokku `r nrow(mass)` inimest; sooline jaotus on järgnev:\n```{r,echo=FALSE}\ntable(mass$SEX)\n```\n## Esimene alapunkt\nNüüd on lisaks tulemusele endale näha, milline koodijupp leiab keskmise vanuse:\n```{r,echo=TRUE}\nmean(mass$AGEP)\n```\n")
 ```
 <br>
-See fail peaks olema salvestatud laiendiga *.rmd* ja avatud RStudios, siis vastava pdf-faili saab kompileerida kui vajutada menüüribal lõngakeraga nuppu *Knit*. Kui avada sama nupu noolemärgist rippmenüü, siis saab ka muuta koostatava faili tüüpi: *Knit to PDF* asemel võib valida ka  *Knit to HTML* või  *Knit to Word*. (NB! Pdf-faili tegemine eeldab, et arvutis on olemas MikTeX vms).
+See fail peaks olema salvestatud laiendiga *.rmd* ja avatud RStudios, siis vastava pdf-faili saab kompileerida kui vajutada menüüribal lõngakeraga nuppu *Knit*. Kui avada sama nupu noolemärgist rippmenüü, siis saab ka muuta koostatava faili tüüpi: *Knit to PDF* asemel võib valida ka  *Knit to HTML* või  *Knit to Word*. NB! Pdf-faili tegemine eeldab, et arvutis on olemas MikTeX vms kui seda pole, siis peaks piisama kui läbi teha järgmised käsud:
+```{r, echo=TRUE, eval = FALSE}
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
+
  
 
 <!--
@@ -138,7 +143,7 @@ Läbitud teemade kordamiseks tee läbi järgmised ülesanded. Kasutatavas andmes
 
 ## Ülesanded
 
-1. Loe sisse andmestik WB.txt aadressilt https://github.com/Rkursus/sygis2019/raw/master/data/. (NB! pane tähele kuidas
+1. Loe sisse andmestik WB.txt aadressilt https://github.com/Rkursus/2020/raw/master/data/. (NB! pane tähele kuidas
 on tähistatud tühjad lahtrid)
 1. Andmeid vaadates on näha, et osade riikide kohta on süstemaatiliselt andmed puudu.
 - Kui palju neid riike on?

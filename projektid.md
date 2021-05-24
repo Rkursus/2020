@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Projektid
 ---
@@ -42,6 +42,20 @@ Mitte nii hea näide projektitööst: on esitatud palju käske, mille järele si
 ## [Tugevate maavärinate esinemine aastatel 1965 – 2016](projektid/group1/Tugevate-maavarinate-esinemine.pdf)
 ## [Töötus ja vaimsed haigused](projektid/group1/Tootus-ja-vaimsed-haigused.pdf)
 ## [Alkoholitarbimine ning selle mõjud noorte seas](projektid/group1/Opilaste-alkoholi-tarbimine.pdf)
+
+
+# Rühm 2
+
+## [Õppijate tegevused, ajakasutus ja väljalangemine programmeerimise MOOCil](projektid/group2/Meier_Room_Projekt_lehele.pdf)
+## [Jaapanis tehtud linnuvaatluste (2004-2013) andmestiku kirjeldus](projektid/group2/Doris Helina Fjuk_projekt_lehele.pdf)
+## [DRD4 Ex III VNTR polümorfismi seosed liigsöömise ja impulsiivsusega](projektid/group2/Glikman_R_Projekt_loplik.pdf)
+## [Erasmus+ programmi Euroopa-sisese õpirände ülevaade aastal 2013](projektid/group2/Projekt_A.Rammul.pdf)
+## [Haridustaseme seos mitmete teiste muutujatega](projektid/group2/projekt-haridus.pdf)
+## [Õpilaste alkoholi tarbimise analüüs](projektid/group2/projekt_poslin2.pdf)
+## [Netflix’i filmid](projektid/group2/rakendustarkvaraR_projekt_Kukk.pdf)
+## [Digitaalsete kaamerate analüüs 1994-2007](projektid/group2/projekt_kaamerad_eliskaar.pdf)
+## [Tarbijate ostukäitumine ühe kaubandusettevõtte põhjal](projektid/group2/Tarbijate ostukäitumine ühe kaubandusettevõtte põhjal. A Gorskova2.pdf)
+## [Rattalaenutussüsteemi kasutamine Seattle’s 2014-2016](projektid/group2/seattle_rattalaenutus_projekt_agnes_tamm2.pdf)
 
 <!--
 {% for post in site.posts %}
